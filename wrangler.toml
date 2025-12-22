@@ -1,13 +1,6 @@
 name = "blackroad-metaverse"
 compatibility_date = "2024-01-01"
+pages_build_output_dir = "."
 
-[site]
-bucket = "./"
-
-[[routes]]
-pattern = "blackroad.io/*"
-zone_name = "blackroad.io"
-
-[[routes]]
-pattern = "www.blackroad.io/*"
-zone_name = "blackroad.io"
+# Custom domain will be configured in Cloudflare Dashboard:
+# universe.blackroad.io
